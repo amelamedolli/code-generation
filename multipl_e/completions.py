@@ -18,7 +18,7 @@ def clean_sample(sample):
     code = re.sub(r"import org.javatuples.*;\n", "", code)
 
     # Remove all example comments starting with '// >>>' and following lines
-    code = re.sub(r"(?s)// >>>.*?(?=public)", "", code)
+    #code = re.sub(r"(?s)// >>>.*?(?=public)", "", code)
 
 
     # Return the modified sample
