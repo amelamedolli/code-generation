@@ -2,6 +2,8 @@
 ## Clone the repo
 git clone https://github.com/amelamedolli/code-generation.git
 
+
+
 ## Install the libraries
 pip install  --upgrade "transformers"   "datasets"  "accelerate"  "evaluate"  "bitsandbytes"  "trl"  "peft"
 
@@ -19,7 +21,7 @@ python3 automodel.py --name "facebook/incoder-6B" --root-dataset humaneval --lan
 cd ../evaluation/src
 
 ## Evaluate
-python3 main.py --dir /home/mtpgai23/evaluation_no_examples/code-generation/tutorial/humaneval-java-facebook_incoder_6B-0.2-reworded --output-dir /home/mtpgai23/evaluation_no_examples/code-generation/tutorial/humaneval-java-facebook_incoder_6B-0.2-reworded --recursive
+python3 main.py --dir /home/mtpgai23/evaluation_full_examples/code-generation/tutorial/humaneval-java-facebook_incoder_6B-0.2-reworded --output-dir /home/mtpgai23/evaluation_full_examples/code-generation/tutorial/humaneval-java-facebook_incoder_6B-0.2-reworded --recursive
 
 
 cd ../
